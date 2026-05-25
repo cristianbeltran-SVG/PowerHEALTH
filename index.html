@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerHealth</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- LOGIN -->
+
+        <div class="login-box" id="loginBox">
+
+            <h1>PowerHealth</h1>
+
+            <p>Sistema de Gestión en Salud</p>
+
+            <input type="text" id="usuario" placeholder="Usuario">
+
+            <input type="password" id="contrasena" placeholder="Contraseña">
+
+            <button onclick="iniciarSesion()">
+                Ingresar
+            </button>
+
+            <p id="mensajeError"></p>
+
+        </div>
+
+        <!-- MODULOS -->
+
+        <div class="modulos" id="modulos">
+
+            <h2>Módulos del Sistema</h2>
+
+            <div class="grid">
+
+                <div class="card">
+                    👨‍⚕️ Pacientes
+                </div>
+
+                <div class="card">
+                    📅 Citas
+                </div>
+
+                <div class="card">
+                    💊 Medicamentos
+                </div>
+
+                <div class="card">
+                    📋 Reportes
+                </div>
+
+                <div class="card">
+                    🧾 Facturación
+                </div>
+
+                <div class="card">
+                    ⚙️ Configuración
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
